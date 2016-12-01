@@ -1,7 +1,6 @@
 {
   "name": "@cwharris/module",
   "version": "0.0.0-development",
-  "private": true,
   "scripts": {
     "build": "ts-build",
     "deploy": "semantic-release pre && npm publish && semantic-release post",

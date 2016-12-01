@@ -1,0 +1,18 @@
+{
+  "name": "@cwharris/module",
+  "version": "0.0.0-development",
+  "private": true,
+  "scripts": {
+    "build": "ts-build",
+    "deploy": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "devDependencies": {
+    "semantic-release": "^6.3.2",
+    "ts-build": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwharris/cwharris-module.git"
+  }
+}

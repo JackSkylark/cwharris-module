@@ -1,6 +1,8 @@
 {
   "name": "@cwharris/module",
   "version": "0.0.0-development",
+  "main": "js/index.js",
+  "typings": "js/index",
   "scripts": {
     "build": "ts-build",
     "deploy": "semantic-release pre && npm publish && semantic-release post",
